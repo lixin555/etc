@@ -5,7 +5,7 @@
 #GNU General Public License v3.0
 #Author: Li Xin, a graduate student studying Materials Science & Engineering in USTB
 #Email: lixin@xs.ustb.edu.cn
-#Reference: Liu Bing-yu,ONE DIAGRAMMATIC SOLUTION ON TRUE STRESS-STRAIN CURVE --ANALYSIS FOR NECKING PROCESS
+#Reference: Liu Bing-yu,one diagrammatic solution on true stress-strain curve --analysis for necking process
 import os
 import pandas as pd
 import numpy as np
@@ -34,7 +34,7 @@ print("Please input original size of cross-section(mm^2)")
 size_cross_section = float(input())
 print("Please input final size of cross-section(mm^2)")
 final_cross_section = float(input())
-print("Please input the data file of engineering strees(.csv)")
+print("Please input the data file of engineering stress(.csv)")
 print("Format: | strain / % | stress / MPa | displacement / mm | ***No header is needed*** ")
 path = select_inputfile()
 data_file = pd.read_csv(path, header = None, names = ["strain", "stress", "displacement"])
