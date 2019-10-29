@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #ect.py
 #Anaconda is recommended for users.
-#The script is used to convert engineering stress-strain curve to ture stress-strain curve.
+#The script is used to convert engineering stress-strain curve to true stress-strain curve.
 #GNU General Public License v3.0
 #Author: Li Xin, a graduate student studying Materials Science & Engineering in USTB
 #Email: lixin@xs.ustb.edu.cn
